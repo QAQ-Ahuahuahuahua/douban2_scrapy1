@@ -9,10 +9,11 @@ import codecs
 import pymysql
 
 def dbConnent():
+    #根据自己需求该信息
     conn = pymysql.connect(
         host='localhost',
         user='root',
-        passwd='zjh418',
+        passwd=pwd,
         db='douban',
         charset='utf8',
         use_unicode=False
